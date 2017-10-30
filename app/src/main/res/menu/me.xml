@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/medialog_editmessage_btn"
+        android:icon="@mipmap/persion"
+        android:orderInCategory="10"
+        app:showAsAction="never"
+        android:title="编辑资料" />
+    <item
+        android:id="@+id/medialog_editimage_btn"
+        android:icon="@mipmap/warning_system"
+        android:orderInCategory="100"
+        android:title="设置头像"></item>
+    <item
+        android:id="@+id/medialog_QRCode_btn"
+        android:icon="@mipmap/warning_system"
+        android:orderInCategory="100"
+
+        android:title="扫一扫"></item>
+    <item
+        android:id="@+id/medialog_share_btn"
+        android:icon="@mipmap/warning_system"
+        android:orderInCategory="100"
+
+        android:title="分 享"></item>
+    <item
+        android:id="@+id/medialog_exit_btn"
+        android:icon="@mipmap/nurseadmin"
+        android:orderInCategory="100"
+
+        android:title="退出帐号"></item>
+</menu>
